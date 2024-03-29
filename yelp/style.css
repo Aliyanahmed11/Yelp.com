@@ -1,0 +1,350 @@
+.bg{
+   /* border:  1px solid black; */
+width: 100%;
+height: 102vh;
+background-image: url(./img/borger.jpg);
+background-repeat: no-repeat, repeat;
+background-size: cover;
+/* object-fit: contain; */
+/* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ikea.com%2Fus%2Fen%2Frooms%2Fkitchen%2Fgallery%2F&psig=AOvVaw3GctKKL4pU-K4y4Yk5_Kp4&ust=1711732744341000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIC--8-7l4UDFQAAAAAdAAAAABAE); */
+/* background-color: grey; */
+/* opacity: 1; background-image: url(&quot;https://s3-media0.fl.yelpcdn.com/educatorphoto/k0oFer3y9EnL-Id0DONTQg/o.jpg&quot;); */
+}
+.nav{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    display: flex;
+}
+.snav{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 60%;
+ 
+}
+.logo {
+    /* border: 1px solid orange; */
+margin-left: 40px;
+    width: 7%;
+    height: 100%;
+
+}
+.logo img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+    color: white;
+}
+.inp{
+    margin-left: 20px;
+    display: flex;
+    /* border: 1px solid brown; */
+    padding: 2px;
+    width: 46%;
+    
+
+}
+
+
+.inp1{
+    width: 46%;
+    padding-left: 10px;
+    /* border: none; */
+    outline: none;
+ 
+}
+.btn-search{
+    /* border: 1px solid red; */
+    width: 10%;
+    background-color: #E00707;
+    border: none;
+}
+.navtxt{
+    /* border: 1px solid blue; */
+    margin-left:44px ;
+    width: 21%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+}
+.left
+{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 50%;
+display: flex;
+border-radius: 3px;
+color: #FFFFFF;
+font-weight: bold;
+
+}
+.right{
+font-weight: bold;
+
+    /* border: 1px solid black; */
+    height: 50%;
+border-radius: 3px;
+color: #FFFFFF;
+    
+}
+.left:hover{
+    background-color: hsla(0, 20%, 95%, 0.405)
+
+}
+.right:hover{
+    background-color: hsla(0, 20%, 95%, 0.405)
+
+}
+.arr{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.navLast{
+    /* border: 1px solid firebrick; */
+    margin-left:14px ;
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 14px; */
+}
+.bbb{
+    height: 50px;
+    padding: 0px 15px;
+
+}
+.navdown{
+    /* border: 1px solid white; */
+    width: 36%;
+    height: 5%;
+    margin-left:14% ;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.line{
+    /* border: 1px solid white; */
+    width: 6%;
+    height: 100%;
+    /* width: 3%;
+    height: 43%;
+    margin-top:5% ;
+    margin-left: 8%; */
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.subLine{
+    border: 1px solid white;
+    width: 30%;
+    height: 23%;
+    border-radius: 20px;
+    
+}
+.wh{
+    background-color: white;
+}
+.main{
+/* border: 1px solid #E00707; */
+margin-top:5% ;
+margin-left: 8%;
+height: 43%;
+width: 40%;
+display: flex;
+
+
+}
+.food{
+    /* border: 1px solid purple; */
+    width: 60%;
+    margin-left: 5%;
+}
+.txfood{
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 38%;
+    margin-top:15px ;
+    display: flex;
+    flex-direction: column;
+}
+.c{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 50%;
+    color:#FFFFFF;
+    
+}
+.c h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.but{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 20%;
+    margin-top: 40px;
+    background-color: #E00707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.but p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.mainbottom{
+    color: white;
+    margin-left: 8%;
+    margin-top: 7%;
+}
+.dmain{
+    /* border: 1px solid navy; */
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dmain h4{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.secCard{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+.act{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 70px;
+    color: #027A97;
+    justify-content: center;
+    align-items: center;
+}
+.act p{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #027A97;
+    padding-top: 15px;
+}
+.categ{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categ h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rect{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-between
+}
+.box{
+    border: 0.5px solid gray;
+    width: 22%;
+    height: 100%;
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
+    /* cursor: pointer; */
+    /* transition: all 0.3s ease-in-out; */
+}
+/* .box :hover{
+    box-shadow: 10px 10px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+} */
+.pp{
+/* border: 1px solid black; */
+width: 100%;
+height: 50%;   
+display: flex;
+justify-content: center;
+align-items: end; 
+}
+.tt{
+/* border: 1px solid black; */
+width: 100%;
+height: 20%; 
+display: flex;
+justify-content:center;
+align-items: center;   
+}
+.kit{
+font-size: 30px;    
+}
+.check{
+    /* border: 1px solid #E00707; */
+    height: 90vh;
+    width: 100%;
+    background-color: #F7F7F7;
+    
+
+}
+.bot{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 67%;
+    margin-left: 8%;
+    margin-top: 5%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec{
+    /* border: 1px solid gold; */
+    width: 25%;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    opacity: 80%;
+    padding-top: 2px;
+    /* cursor: pointer; */
+}
+
+
+.copy{
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.copy p{
+    opacity: 80%;
+font-size: 15px;
+}
+.bot .sec ul li:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
+
+
+
+
